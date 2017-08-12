@@ -25,6 +25,7 @@ import adminPost from './controllers/adminBlogPost'
 import adminGamePage from './controllers/adminGamesPage'
 import submit from './controllers/submit'
 import faq from './controllers/faq'
+import about from './controllers/about'
 
 
 
@@ -51,6 +52,9 @@ routes.get('/submit', submit.get)
 
 //faq
 routes.get('/faq', faq.get)
+
+//about
+routes.get('/about', about.get)
 
 
 //add game and Ad
