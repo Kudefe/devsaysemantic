@@ -32,3 +32,7 @@ $(document).ready(() => {
     })
   })
 });
+
+$(document).ready(function(){
+  $('.parallax').parallax();
+});

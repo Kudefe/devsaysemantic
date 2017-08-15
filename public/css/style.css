@@ -1,45 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Francois+One|Merriweather+Sans|Philosopher|Playfair+Display+SC|Signika|Spectral|Trocchi|Vidaloka');
-
-.simple-linear {
-  background: linear-gradient(#e3f2fd , #90caf9);
+.carta{
+    background: rgba(0, 0, 0, 0.6);
+    font-weight: 800;
+    position: relative;
+    top: 40px;
 }
 
-.flow-text{
-  /*width:70% auto;*/
-  /*font-size:12px;*/
-  word-break:break-all;
-}
-
-.centro{
-  text-align: center;
-  background-color: inherit;
-}
-
-html {
-  font-family: 'Merriweather Sans', sans-serif;
-}
-
-.pequet{
-  font-family: 'Trocchi', serif;
-  /*font-size: 30px;*/
-
-}
-.colorc{
-  color: black;
-}
-
-.float {
-  -webkit-transition:all .3s ease-out;
-  -moz-transition:all .3s ease-out;
-  -ms-transition:all .3s ease-out;
-  -o-transition:all .3s ease-out;
-  transition:all .3s ease-out;
-}
-
-.float:hover {
-  -webkit-transform:translate(0px,-10px);
-  -moz-transform:translate(0px,-10px);
-  -ms-transform:translate(0px,-10px);
-  -o-transform:translate(0px,-10px);
-  transform:translate(0px,-10px);
-}

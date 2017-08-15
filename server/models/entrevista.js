@@ -37,13 +37,11 @@ const interviewSchema = new Schema({
     },
   imageOne: {
     type: String,
-    required: false,
-    default: "http://lorempixel.com/800/600/"
+    required: true
     },
   imageTwo: {
     type: String,
-    required: false,
-    default: "http://lorempixel.com/1080/1080/"
+    required: true
     }
 })
 

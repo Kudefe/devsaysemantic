@@ -1,30 +1,22 @@
-<div class="row">
-
-  {{#each games}}
-
-    <div class="col s12 m6 l4 float">
-      <a href="/games/{{this.title2}}">
-        <div class="card nested">
-          <div class="card-content colorc blue-grey lighten-4">
-            <p class="flow-text centro pequet">{{this.title}}</p>
+      <div class="row">
+        {{#each games}}
+        <a href="/games/{{this.title2}}">
+        
+          <div class="col s12 m6 l4">
+          <div class="card small">
+            <div class="card-image">
+              <img src="{{this.imageOne}}">
+              <span class="card-title">
+                <p class="carta">{{this.title}}</p></span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
           </div>
-          <div class="card-image">
-            <img src="http://lorempixel.com/800/600" alt="Placeholder" class="responsive-img">
-
-
-              <span class="card-title float">{{this.title}}</span>
-
-          </div>
-          <div class="card-content light-blue accent-4 pequet">
-            <p class="flow-text centro">{{this.title}}</p>
-          </div>
-          {{!-- <div class="card-content">
-
-          </div> --}}
         </div>
-      </a>
-  </div>
 
-
-  {{/each}}
-</div>
+        </a>
+        
+        {{/each}}
+      </div>
