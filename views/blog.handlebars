@@ -1,8 +1,19 @@
-<p>Soy un blog!</p>
+<div class="container">
+  <h1>Blog de la Pagina</h1>
+</div>
 {{#each blogs}}
-  <div>
+  <div class="container">
     <a href="/blog/{{this.title2}}">
-      <p>{{this.title}}</p>
+      
+        <div class="divider"></div>
+
+
+  <div class="section black-text ">
+    <h5>{{this.title}}</h5>
+    <p class="flow-text">Aqui va un pequeño extracto</p>
+  </div>
+
+
     </a>
   </div>
 {{/each}}

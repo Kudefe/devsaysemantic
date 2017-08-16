@@ -3,20 +3,30 @@
         <a href="/games/{{this.title2}}">
         
           <div class="col s12 m6 l4">
-          <div class="card small">
+          <div class="card hoverable small">
             <div class="card-image">
               <img src="{{this.imageOne}}">
               <span class="card-title">
-                <p class="carta">{{this.title}}</p></span>
+                <p class="carta">{{this.title}}</p>
+              </span>
             </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+            <div class="center-align grey-text">
+              <p class="gro">Soy una pequeña descripcion</p>
+            </div>
+            
+            <div class="card-action">
+              <div class="col s6 m6 l6 left-align">
+                  <div class="chip red lighten-2 posit">
+                    {{this.units}}
+                  </div>
+              </div>
+              <div class="col s6 m6 l6 right-align black-text posit">
+                <p class="gro">by {{this.author}}</p>
+              </div>
             </div>
           </div>
         </div>
 
-        </a>
-        
+        </a>        
         {{/each}}
       </div>
