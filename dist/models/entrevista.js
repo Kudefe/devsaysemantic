@@ -1,10 +1,10 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _mongoose = require("mongoose");
+var _mongoose = require('mongoose');
 
 var _mongoose2 = _interopRequireDefault(_mongoose);
 
@@ -48,13 +48,11 @@ var interviewSchema = new Schema({
   },
   imageOne: {
     type: String,
-    required: false,
-    default: "http://lorempixel.com/800/600/"
+    required: true
   },
   imageTwo: {
     type: String,
-    required: false,
-    default: "http://lorempixel.com/1080/1080/"
+    required: true
   }
 });
 

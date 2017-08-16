@@ -100,12 +100,18 @@ var _faq = require('./controllers/faq');
 
 var _faq2 = _interopRequireDefault(_faq);
 
+var _about = require('./controllers/about');
+
+var _about2 = _interopRequireDefault(_about);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//import controllers
 var routes = (0, _express2.default)();
 
 //main
+
+
+//import controllers
 routes.get('/', _homePage2.default.get);
 routes.get('/games', _gamesPage2.default.get);
 routes.get('/games/:title2', _singleGame2.default.get);
@@ -126,6 +132,9 @@ routes.get('/submit', _submit2.default.get);
 
 //faq
 routes.get('/faq', _faq2.default.get);
+
+//about
+routes.get('/about', _about2.default.get);
 
 //add game and Ad
 routes.get('/admin/add/game', _ensure2.default, _addGame2.default.get);
