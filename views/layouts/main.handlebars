@@ -9,19 +9,28 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body class="white">
+
 <div class="navbar-fixed">
-  <nav>
+<nav>
+    <div class="nav-wrapper">
     <div class="container">
-      <div class="nav-wrapper">
-        <a href="/games" class="brand-logo">Intergame</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="/blog">Blog</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/submit">Submit</a></li>
-        </ul>
-      </div>
+
+      <a href="/games" class="brand-logo">Logo</a>
+      <a href="/games" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/submit">Submit</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/submit">Submit</a></li>
+      </ul>
+
     </div>
 
+    </div>
   </nav>
 </div>
 
