@@ -13,6 +13,7 @@ blogPost.get = (req, res) => {
 blogPost.post = (req, res) => {
   req.checkBody('title', 'Requerido!').notEmpty()
   req.checkBody('body', 'Requerido!').notEmpty()
+ 
 
   let errors = req.validationErrors()
 
@@ -28,6 +29,7 @@ blogPost.post = (req, res) => {
 
     blog.title = req.body.title
     blog.body = req.body.body
+    blog.createdAt = new Date().toISOString().slice(0,10); 
     blog.title2 = slugify(blog.title);
 
     console.log(blog.title2);

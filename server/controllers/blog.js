@@ -14,6 +14,9 @@ blog.get = (req, res) => {
     if (err) {
       throw err
     } else {
+
+      let inverted = blogs.reverse()
+
       res.render('blog', {
         blogs: blogs
       })

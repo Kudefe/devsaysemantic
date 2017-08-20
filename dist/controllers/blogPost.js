@@ -44,6 +44,7 @@ blogPost.post = function (req, res) {
 
     blog.title = req.body.title;
     blog.body = req.body.body;
+    blog.createdAt = new Date().toISOString().slice(0, 10);
     blog.title2 = (0, _slugify2.default)(blog.title);
 
     console.log(blog.title2);

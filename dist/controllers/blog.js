@@ -27,6 +27,9 @@ blog.get = function (req, res) {
     if (err) {
       throw err;
     } else {
+
+      var inverted = blogs.reverse();
+
       res.render('blog', {
         blogs: blogs
       });

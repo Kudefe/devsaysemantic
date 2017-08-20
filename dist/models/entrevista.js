@@ -31,9 +31,8 @@ var interviewSchema = new Schema({
     type: String, required: true
   },
   createdAt: {
-    type: Date,
-    required: false,
-    default: Date.now
+    type: String,
+    required: true
   },
   units: {
     type: String,

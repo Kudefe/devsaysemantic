@@ -3,6 +3,7 @@
 
 .carta{
     font-weight: 800;
+    font-size: 27px;
     text-shadow: 0 3px 0 black;
 }
 
@@ -24,6 +25,16 @@
 .parallax-container {
     height: 500px;
   }
+
+.und{
+  font-family: 'Lora', serif;
+  text-decoration: underline #ff8f00;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -.003em;
+  color: black;
+
+}
 
   body {
     display: flex;
