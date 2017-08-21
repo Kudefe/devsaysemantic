@@ -36,6 +36,13 @@
 
 }
 
+.fitt{
+  height: auto;
+  width: auto;
+  max-height: 62px;
+  max-width: 250px;
+}
+
   body {
     display: flex;
     min-height: 100vh;
