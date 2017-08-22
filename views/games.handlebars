@@ -7,26 +7,35 @@
     
 
 
-                <div class="red ui raised card">
-                <div class="ui Massive image">
-                <img src="http://lorempixel.com/800/800">
-                </div>
+                <div class="red ui raised link card">
+               <a class="image" href="/games/{{this.title2}}">
+                    <img src="{{this.imageOne}}">
+               </a>
                 <div class="content">
-                <div class="header">{{this.title}}</div>
+                <a class="header" href="/games/{{this.title2}}">{{this.title}}</a>
                 <div class="meta">
-                    <a>Friends</a>
+                    <div class="ui tag labels">
+                        <a class="ui red label">
+                            $15.99
+                        </a>
+                    </div>
                 </div>
                 <div class="description">
                     Matthew is an interior designer living in New York.
                 </div>
                 </div>
                 <div class="extra content">
+                    
                 <span class="right floated">
-                    Joined in 2013
+                    
+                    
+                        
+                        {{this.author}}
+                    
                 </span>
                 <span>
                     <i class="game icon"></i>
-                    {{this.units}}
+                  {{this.units}}
                 </span>
                 </div>
             </div>
