@@ -30,10 +30,6 @@ var interviewSchema = new Schema({
   body: {
     type: String, required: true
   },
-  createdAt: {
-    type: String,
-    required: true
-  },
   units: {
     type: String,
     required: false,
