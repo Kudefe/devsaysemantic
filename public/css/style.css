@@ -46,7 +46,7 @@ blockquote + figcaption cite {
     text-align: right;
 }
 body {
-    word-wrap: break-word;
+    word-wrap: break-word; 
 }
 pre code {
     word-wrap: normal;
@@ -104,10 +104,10 @@ h6 {
 }
 p {
     margin: auto auto 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.3rem;
     font-weight: 400;    
-    font-size: 23px;
-    line-height: 1.58;
+    font-size:100%;
+    line-height: 1.68;
     letter-spacing: -.003em;
 }
 
