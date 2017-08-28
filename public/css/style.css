@@ -19,6 +19,128 @@ License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
     unicode-range: U+270C;
 }
 
+html, body {
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  .container {
+
+    padding: 20px;
+  }
+  
+
+
+  @media only screen and (min-width: 360px) {
+    .flow-text {
+      font-size: 0.9rem;
+    }
+  }
+  @media only screen and (min-width: 394px) {
+    .flow-text {
+      font-size: 1.224rem;
+    }
+  }
+  @media only screen and (min-width: 428px) {
+    .flow-text {
+      font-size: 1.248rem;
+    }
+  }
+  @media only screen and (min-width: 462px) {
+    .flow-text {
+      font-size: 1.272rem;
+    }
+  }
+  @media only screen and (min-width: 496px) {
+    .flow-text {
+      font-size: 1.296rem;
+    }
+  }
+  @media only screen and (min-width: 530px) {
+    .flow-text {
+      font-size: 1.32rem;
+    }
+  }
+  @media only screen and (min-width: 564px) {
+    .flow-text {
+      font-size: 1.344rem;
+    }
+  }
+  @media only screen and (min-width: 598px) {
+    .flow-text {
+      font-size: 1.368rem;
+    }
+  }
+  @media only screen and (min-width: 632px) {
+    .flow-text {
+      font-size: 1.392rem;
+    }
+  }
+  @media only screen and (min-width: 666px) {
+    .flow-text {
+      font-size: 1.416rem;
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    .flow-text {
+      font-size: 1.44rem;
+    }
+  }
+  @media only screen and (min-width: 734px) {
+    .flow-text {
+      font-size: 1.464rem;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .flow-text {
+      font-size: 1.488rem;
+    }
+  }
+  @media only screen and (min-width: 802px) {
+    .flow-text {
+      font-size: 1.512rem;
+    }
+  }
+  @media only screen and (min-width: 836px) {
+    .flow-text {
+      font-size: 1.536rem;
+    }
+  }
+  @media only screen and (min-width: 870px) {
+    .flow-text {
+      font-size: 1.56rem;
+    }
+  }
+  @media only screen and (min-width: 904px) {
+    .flow-text {
+      font-size: 1.584rem;
+    }
+  }
+  @media only screen and (min-width: 938px) {
+    .flow-text {
+      font-size: 1.608rem;
+    }
+  }
+  @media only screen and (min-width: 972px) {
+    .flow-text {
+      font-size: 1.608rem;
+    }
+  }
+  @media only screen and (min-width: 1006px) {
+    .flow-text {
+      font-size: 1.608rem;
+    }
+  }
+  @media only screen and (min-width: 1040px) {
+    .flow-text {
+      font-size: 1.608rem;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .flow-text {
+      font-size: 1.2rem;
+    }
+  }
+
 
 .typl8-tera,
 .typl8-giga,
@@ -87,6 +209,7 @@ h3 {
 h4 {
     font-size: 2em;
     margin-bottom: 1.21212rem;
+
 }
 .typl8-delta,
 h5 {
@@ -116,8 +239,13 @@ p a{
     color: #6D0909;
     font-weight: 600;
     position: relative;
-    -webkit-transition: background-color 120ms;
-    transition: background-color 120ms;
+
+}
+
+h4 a{
+  border-bottom: 3px solid #E63737;
+  color: #413E3E;
+
 }
 
 p + p {
@@ -125,7 +253,7 @@ p + p {
     margin-top: -1.5rem;
 }
 small {
-    font-size: 65%;
+    font-size: 50%;
 }
 input,
 abbr,
